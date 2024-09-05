@@ -10,7 +10,7 @@ buttons.forEach((btn) => {
     if (event.target.id === 'grey') {
       body.style.backgroundColor = event.target.id;
     } else if (event.target.id === 'white') {
-      body.style.backgroundColor = event.target.id;
+      body.style.backgroundColor = 'lightgrey';
     } else if (event.target.id === 'blue') {
       body.style.backgroundColor = event.target.id;
     } else if (event.target.id === 'yellow') {
